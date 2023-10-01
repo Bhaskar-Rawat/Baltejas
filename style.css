@@ -41,11 +41,11 @@ nav{
     align-items: center;
     margin-right: 10%;
 }
-a{
+.rightnav i{
     margin-left: 20px;
     color: white ;
 }
-a:hover{
+i:hover{
     color: rgb(130, 226, 229);
 
 }
