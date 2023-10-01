@@ -3,18 +3,16 @@
     margin: 0%;
 }
 body{
-    background-image: url(Images/bckgrnd.jpg);
+    background-image: url(Images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 header{
-    position: sticky;
-    top: 0;
+    background-color: #C0C0C0;
 }
 nav{
-    /* background-color: rgb(192,192,192); */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -42,40 +40,19 @@ nav{
 }
 a{
     margin-left: 20px;
-    /* padding: 0px 10px; */
     color: black ;
 }
 a:hover{
     color: rgb(130, 226, 229);
 
 }
-/* #pages{
-    text-decoration: none; 
-    color: black;
-}
-#pages:hover{
-    color: skyblue;
-    text-decoration: wavy;
-} */
-/* #Home{
-    background-color: white;
-    height: 710px;
-    width: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: column;
-} */
+
 .slideshow-container {
     width: 100%;
 }
-
-/* Style for individual slides */
 .mySlides {
     display: none;
 }
-
-/* Style for the previous and next buttons */
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -89,20 +66,14 @@ a:hover{
     border-radius: 0 3px 3px 0;
     cursor: pointer;
 }
-
-/* Position the previous button to the left */
 .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
 }
-
-/* Position the next button to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
-/* Add a dot for each slide */
 .dot {
     height: 15px;
     width: 15px;
@@ -112,8 +83,6 @@ a:hover{
     display: inline-block;
     transition: background-color 1s ease;
 }
-
-/* Style the active dot */
 .active {
     background-color: #717171;
 }
@@ -122,7 +91,6 @@ a:hover{
     font-size: 30px;
 }
 #discription{
-    /* background-color: white; */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -142,7 +110,6 @@ a:hover{
     padding: 20px 0px;
 }
 #Portfolio{
-    /* background-color:white; */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -153,28 +120,22 @@ a:hover{
     align-items: center;    
 }
 .section1{
-    color: #1877F2;
-    background-color: rgba(0, 200, 255, 0.2);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 10%;
     border-radius: 30px;
     height: 0px;
-    /* position: relative;
-    left: 45%; */
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 .section2{
-    /* background-color: chocolate; */
     height: 10vh;
-    /* position: relative;
-    left: 40%; */
     padding: 20px 0px;
     text-align: center;
 }
 .product{
-    /* background-color: white; */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -197,7 +158,6 @@ a:hover{
     width: 90%;
 }
 #Pricing{
-    /* background-color: white; */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -208,7 +168,7 @@ a:hover{
     align-items: center;    
 }
 .price{
-    /* background-color: aqua; */
+    background-color: white;
     width: 420px;
     height: 60vh;
     border-radius: 8px;
@@ -242,12 +202,12 @@ button{
     margin-top: 20px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 button:hover{
     background-color: #0056c7;
 }
 #contact{
-    /* background-color: white; */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -256,7 +216,6 @@ button:hover{
     flex-direction: column;
 }
 .cont{
-    /* background-color: white; */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -264,7 +223,7 @@ button:hover{
     align-items: center;
 }
 .address{
-    /* background-color: grey; */
+    background-color: white;
     width: 550px;
     height: 220px;
     display: flex;
@@ -287,7 +246,7 @@ button:hover{
     align-items: center;
 }
 .email{
-    /* background-color: aquamarine;  */
+    background-color: white;
     width: 325px;
     height: 220px;
     display: flex;
@@ -300,7 +259,7 @@ button:hover{
     border-radius: 8px;
 }
 .Call{
-    /* background-color: yellow; */
+    background-color: white;
     width: 250px;
     height: 220px;
     display: flex;
@@ -324,6 +283,9 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.rightfooter{
+    text-align: right;
 }
 address {
     font-style: normal;
@@ -380,7 +342,7 @@ address {
     }
     .price{
         font-size: 23px;
-        width: 100%;
+        width: 60%;
         height: auto;
     }
     .head{
@@ -394,17 +356,17 @@ address {
         flex-direction: column;
     }
     .address{
-        width: 100%;
+        width: 60%;
         height: fit-content;
         margin-left: 0%;
     }
     .email{
-        width: 100%;
+        width: 60%;
         height: fit-content;
         margin-left: 0%;
     }
     .Call{
-        width: 100%;
+        width: 60%;
         height: fit-content;
         margin-left: 0%;
     }
@@ -415,11 +377,15 @@ address {
     .dot{
         display: none;
     }
-    
-    
-    
-
-    
+    .footer-content{
+        flex-direction: column;
+    }
+    .rightfooter{
+        text-align: left;
+    }
+    button{
+        margin-bottom: 20px;
+    }
     }
     
     
